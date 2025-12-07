@@ -1,0 +1,18 @@
+# Ignore frontend dependencies
+frontend/node_modules/
+
+# Ignore build output
+frontend/build/
+
+# Ignore OS / IDE files
+.DS_Store
+.vscode/
+.env
+
+# Python / SageMaker backend ignores
+demucs-sagemaker-backend/__pycache__/
+demucs-sagemaker-backend/*.egg-info/
+*.pyc
+
+# Docker ignores
+demucs-sagemaker-backend/.dockerignore
