@@ -1,11 +1,15 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
-// Lambda Function URLs 
-const UPLOAD_URL = 'https://gpmj2w4ksjuoda7e5ze2iqidwu0okkwh.lambda-url.us-east-1.on.aws/';
-const PROCESS_URL = 'https://l4oeymfu3kwfxhx4zmbhocduiu0wcase.lambda-url.us-east-1.on.aws/';
-const STATUS_URL = 'https://leeilptwhx2hlwshjbxwxkukzy0bosof.lambda-url.us-east-1.on.aws/';
-const CLEANUP_URL = 'https://bbpfowijkuuzgag6uvf3k2d5ka0znkjq.lambda-url.us-east-1.on.aws/';
+// AWS API Gateway Base URL
+const API_BASE = 'https://ctgxhoqv18.execute-api.us-east-1.amazonaws.com';
+
+// Backend endpoints
+const UPLOAD_URL = `${API_BASE}/upload`;
+const PROCESS_URL = `${API_BASE}/process`;
+const STATUS_URL = `${API_BASE}/status`;
+const CLEANUP_URL = `${API_BASE}/cleanup`;
+
 
 // --- API FUNCTIONS ---
 
