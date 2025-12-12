@@ -4,7 +4,7 @@
 
 A production-ready, serverless web application that leverages state-of-the-art deep learning models to separate vocals and instrumentals from audio tracks. Built with scalable AWS infrastructure and modern web technologies.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://your-netlify-url.netlify.app)
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://demucs-audio-separator-app.netlify.app)
 [![AWS](https://img.shields.io/badge/AWS-Deployed-orange)](https://aws.amazon.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
